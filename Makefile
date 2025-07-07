@@ -10,6 +10,12 @@ tx:
 g_tx:
 	gtkwave --autosave tb_tx.vcd
 
+rx:
+	iverilog -o out_rx.vvp tb_rx.v uart_rx.v baud_gen.v comparator.v counter.v 
+	vvp out_rx.vvp
+g_rx:
+	gtkwave --autosave tb_rx.vcd
+
+
 clean:
-	rm -f out_baud.vvp tb_baud.vcd
 	rm -f *vcd *.vvp *out 
