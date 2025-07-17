@@ -1,4 +1,4 @@
-# RTL_UART
+# RTL_UART_FSM
 
 A fully synthesizable UART (Universal Asynchronous Receiver/Transmitter) system designed in Verilog RTL.  
 Supports configurable baud rates, 8-bit asynchronous serial communication with 16x oversampling, and modular design for easy simulation and integration.
