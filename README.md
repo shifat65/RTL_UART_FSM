@@ -177,6 +177,13 @@ Integrates transmitter, receiver, baud generator, counter, and comparator into a
    The `top` module ties all these pieces together, allowing simultaneous transmission and reception with configurable baud rate.
 
 ---
+## Build & Run
+
+Clone the repo:
+   ```bash
+   git clone https://github.com/shifat65/RTL_UART_FSM/
+   cd RTL_UART_FSM
+---
 
 ## Simulation Instructions
 
@@ -228,10 +235,4 @@ make clean     # Remove generated files
 ## Author
 
 Syed Shifat
-
----
-
-## License
-
-MIT License — free to use and modify for educational and project purposes.
 
